@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "features": "功能特色",
+    "download": "下载",
+    "howToUse": "使用方法",
+    "about": "关于"
+  },
+  "hero": {
+    "title": "Multi⁺LLM",
+    "subtitle": "AI对比工具",
+    "description": "专业的AI对比工具，支持横向对比、批量问答、拖拽排序和响应式布局。轻松实现多个AI模型的并排比较。",
+    "downloadNow": "立即下载",
+    "learnMore": "了解更多"
+  },
+  "features": {
+    "title": "核心功能",
+    "sideByComparison": {
+      "title": "并排对比显示",
+      "description": "采用水平布局和同步滚动，支持同时比较多个AI模型的响应结果。"
+    },
+    "batchQA": {
+      "title": "批量问答功能",
+      "description": "一次性向多个AI模型发送相同问题，即时对比各个模型的回答效果。"
+    },
+    "dragDrop": {
+      "title": "拖拽排序操作",
+      "description": "通过直观的拖拽操作重新排列AI模型顺序，自定义您的专属工作空间。"
+    },
+    "responsive": {
+      "title": "响应式适配",
+      "description": "针对桌面端和移动端深度优化，提供自适应布局和触摸友好的操作体验。"
+    },
+    "shortcuts": {
+      "title": "键盘快捷操作",
+      "description": "支持自定义键盘快捷键，实现快速导航和高效操作，显著提升使用效率。"
+    },
+    "customization": {
+      "title": "深度个性化定制",
+      "description": "灵活配置各项设置，管理站点偏好，打造专属的AI对比使用体验。"
+    }
+  },
+  "models": {
+    "title": "支持的AI模型",
+    "note": "持续更新中，将支持更多AI平台！"
+  },
+  "download": {
+    "title": "下载 Multi⁺LLM",
+    "description": "全面支持主流浏览器，为各平台提供专门优化的构建版本。",
+    "chrome": {
+      "title": "Google Chrome",
+      "description": "完整功能支持的Manifest V3版本",
+      "button": "下载 Chrome 版",
+      "store": "Chrome 网上应用店"
+    },
+    "edge": {
+      "title": "Microsoft Edge",
+      "description": "Edge 专属优化版本，原生深度集成",
+      "button": "下载 Edge 版",
+      "store": "Edge 扩展商店"
+    },
+    "firefox": {
+      "title": "Mozilla Firefox",
+      "description": "兼容 Firefox AMO 的 Manifest V2",
+      "button": "下载 Firefox 版",
+      "store": "Firefox 附加组件"
+    }
+  },
+  "howToUse": {
+    "title": "使用方法",
+    "step1": {
+      "title": "安装扩展程序",
+      "description": "从对应浏览器的扩展商店下载并安装 Multi⁺LLM 扩展程序。"
+    },
+    "step2": {
+      "title": "个性化配置",
+      "description": "在选项页面中自定义AI模型偏好设置和界面布局参数。"
+    },
+    "step3": {
+      "title": "启动对比功能",
+      "description": "使用快捷键 (Alt+Shift+M) 或点击扩展图标来打开AI对比界面。"
+    },
+    "step4": {
+      "title": "开始提问对比",
+      "description": "输入您的问题，即可同时查看和对比多个AI模型的回答结果。"
+    }
+  },
+  "about": {
+    "title": "关于 Multi⁺LLM",
+    "description1": "Multi⁺LLM 是一款专业的AI对比工具，致力于简化用户与多个AI模型的交互体验。采用 TypeScript 和现代 Web 技术精心构建，在所有主流浏览器上都能提供流畅无缝的使用体验。",
+    "description2": "本扩展程序支持横向对比视图、批量问题处理和丰富的个性化定制选项。无论您是科研工作者、开发人员还是AI技术爱好者，Multi⁺LLM 都能帮助您最大化地发挥AI交互的价值和效率。",
+    "builtWith": "技术栈：",
+    "stats": {
+      "models": "支持模型",
+      "browsers": "兼容浏览器",
+      "languages": "界面语言",
+      "more": "更多"
+    }
+  },
+  "footer": {
+    "github": "GitHub",
+    "twitter": "X（推特）"
+  },
+  "modal": {
+    "download": {
+      "title": "下载 {browser} 版 Multi⁺LLM",
+      "description": "即将跳转到{store}，您可以在那里下载和安装 Multi⁺LLM 扩展程序。",
+      "goTo": "前往{store}",
+      "cancel": "取消"
+    },
+    "shortcuts": {
+      "title": "键盘快捷键",
+      "activate": "激活扩展程序",
+      "expand": "打开对比界面并展开面板",
+      "prevPage": "对比界面的上一页",
+      "nextPage": "对比界面的下一页"
+    },
+    "easter": {
+      "title": "🎉 隐藏功能已解锁！",
+      "description": "恭喜您发现了 Multi⁺LLM 的一些高级功能：",
+      "note": "这些功能在完整版扩展程序中均可使用！",
+      "features": [
+        "地址栏\"ml\"关键词快速启动功能",
+        "右键菜单快速访问支持",
+        "网页导航深度集成",
+        "离线模式运行支持",
+        "高级界面布局自定义",
+        "智能批量处理功能"
+      ]
+    }
+  },
+  "toast": {
+    "copied": "已复制到剪贴板！"
+  }
+}

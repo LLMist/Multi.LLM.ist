@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "features": "Features",
+    "download": "Download",
+    "howToUse": "How to Use",
+    "about": "About"
+  },
+  "hero": {
+    "title": "Multi⁺LLM",
+    "subtitle": "AI Comparison Tool",
+    "description": "Professional AI Comparison Tool that supports horizontal comparison, batch Q&A, drag-and-drop sorting, and responsive layout. Compare multiple AI models side-by-side with ease.",
+    "downloadNow": "Download Now",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "title": "Key Features",
+    "sideByComparison": {
+      "title": "Side-by-Side Comparison",
+      "description": "Compare multiple AI models simultaneously with horizontal layout and synchronized scrolling."
+    },
+    "batchQA": {
+      "title": "Batch Q&A",
+      "description": "Send the same question to multiple AI models at once and compare their responses instantly."
+    },
+    "dragDrop": {
+      "title": "Drag & Drop Sorting",
+      "description": "Customize your workspace by reordering AI models with intuitive drag-and-drop functionality."
+    },
+    "responsive": {
+      "title": "Responsive Design",
+      "description": "Optimized for both desktop and mobile devices with adaptive layouts and touch-friendly controls."
+    },
+    "shortcuts": {
+      "title": "Keyboard Shortcuts",
+      "description": "Boost productivity with customizable keyboard shortcuts for quick navigation and actions."
+    },
+    "customization": {
+      "title": "Extensive Customization",
+      "description": "Configure settings, manage site preferences, and personalize your AI comparison experience."
+    }
+  },
+  "models": {
+    "title": "Supported AI Models",
+    "note": "And many more AI platforms with continuous updates!"
+  },
+  "download": {
+    "title": "Download Multi⁺LLM",
+    "description": "Available for all major browsers with optimized builds for each platform.",
+    "chrome": {
+      "title": "Google Chrome",
+      "description": "Manifest V3 with full feature support",
+      "button": "Download for Chrome",
+      "store": "Chrome Web Store"
+    },
+    "edge": {
+      "title": "Microsoft Edge",
+      "description": "Optimized for Edge with native integration",
+      "button": "Download for Edge",
+      "store": "Edge Add-ons"
+    },
+    "firefox": {
+      "title": "Mozilla Firefox",
+      "description": "Manifest V2 compatible with Firefox AMO",
+      "button": "Download for Firefox",
+      "store": "Firefox Add-ons"
+    }
+  },
+  "howToUse": {
+    "title": "How to Use",
+    "step1": {
+      "title": "Install Extension",
+      "description": "Download and install Multi⁺LLM from your browser's extension store."
+    },
+    "step2": {
+      "title": "Configure Settings",
+      "description": "Customize your AI model preferences and layout settings in the options page."
+    },
+    "step3": {
+      "title": "Start Comparing",
+      "description": "Use keyboard shortcuts (Alt+Shift+M) or click the extension icon to open the comparison view."
+    },
+    "step4": {
+      "title": "Ask Questions",
+      "description": "Type your question once and see responses from multiple AI models simultaneously."
+    }
+  },
+  "about": {
+    "title": "About Multi⁺LLM",
+    "description1": "Multi⁺LLM is a professional AI comparison tool designed to streamline your interactions with multiple AI models. Built with TypeScript and modern web technologies, it provides a seamless experience across all major browsers.",
+    "description2": "The extension supports horizontal comparison views, batch question processing, and extensive customization options. Whether you're a researcher, developer, or AI enthusiast, Multi⁺LLM helps you get the most out of your AI interactions.",
+    "builtWith": "Built with:",
+    "stats": {
+      "models": "AI Models",
+      "browsers": "Browsers",
+      "languages": "Languages",
+      "more": "More"
+    }
+  },
+  "footer": {
+    "github": "GitHub",
+    "twitter": "X (Twitter)"
+  },
+  "modal": {
+    "download": {
+      "title": "Download Multi⁺LLM for {browser}",
+      "description": "You will be redirected to the {store} where you can download and install Multi⁺LLM.",
+      "goTo": "Go to {store}",
+      "cancel": "Cancel"
+    },
+    "shortcuts": {
+      "title": "Keyboard Shortcuts",
+      "activate": "Activate extension",
+      "expand": "Open comparison and expand dock",
+      "prevPage": "Previous page in comparison",
+      "nextPage": "Next page in comparison"
+    },
+    "easter": {
+      "title": "🎉 Hidden Features Unlocked!",
+      "description": "You discovered some advanced features of Multi⁺LLM:",
+      "note": "These features are available in the full extension!",
+      "features": [
+        "Omnibox integration with \"ml\" keyword",
+        "Context menu support for quick access",
+        "Web navigation integration",
+        "Offline mode support",
+        "Advanced layout customization",
+        "Batch processing capabilities"
+      ]
+    }
+  },
+  "toast": {
+    "copied": "Copied to clipboard!"
+  }
+}

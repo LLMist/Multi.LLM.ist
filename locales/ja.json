@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "features": "機能",
+    "download": "ダウンロード",
+    "howToUse": "使い方",
+    "about": "概要"
+  },
+  "hero": {
+    "title": "Multi⁺LLM",
+    "subtitle": "AI比較ツール",
+    "description": "水平比較、一括質問応答、ドラッグ&ドロップ並び替え、レスポンシブレイアウトに対応したプロフェッショナルなAI比較ツール。複数のAIモデルを並べて簡単に比較しましょう。",
+    "downloadNow": "今すぐダウンロード",
+    "learnMore": "詳しく見る"
+  },
+  "features": {
+    "title": "主な機能",
+    "sideByComparison": {
+      "title": "並列比較表示",
+      "description": "水平レイアウトと同期スクロールにより、複数のAIモデルを同時に比較できます。"
+    },
+    "batchQA": {
+      "title": "一括質問機能",
+      "description": "同じ質問を複数のAIモデルに一度に送信し、応答を瞬時に比較できます。"
+    },
+    "dragDrop": {
+      "title": "ドラッグ&ドロップ操作",
+      "description": "直感的なドラッグ&ドロップでAIモデルの順序を変更し、ワークスペースをカスタマイズできます。"
+    },
+    "responsive": {
+      "title": "レスポンシブ対応",
+      "description": "デスクトップとモバイル両方に最適化され、タッチ操作にも対応した適応型レイアウトを提供します。"
+    },
+    "shortcuts": {
+      "title": "キーボードショートカット",
+      "description": "カスタマイズ可能なキーボードショートカットで、素早いナビゲーションと操作を実現し、生産性を向上させます。"
+    },
+    "customization": {
+      "title": "豊富なカスタマイズ機能",
+      "description": "設定の調整、サイト設定の管理、AI比較体験の個人設定が可能です。"
+    }
+  },
+  "models": {
+    "title": "対応AIモデル",
+    "note": "継続的なアップデートで、さらに多くのAIプラットフォームに対応予定！"
+  },
+  "download": {
+    "title": "Multi⁺LLMをダウンロード",
+    "description": "主要ブラウザに対応し、各プラットフォーム向けに最適化されたビルドを提供しています。",
+    "chrome": {
+      "title": "Google Chrome",
+      "description": "完全機能対応のManifest V3版",
+      "button": "Chrome版をダウンロード",
+      "store": "Chrome ウェブストア"
+    },
+    "edge": {
+      "title": "Microsoft Edge",
+      "description": "Edge専用最適化、ネイティブ統合対応",
+      "button": "Edge版をダウンロード",
+      "store": "Edge アドオン"
+    },
+    "firefox": {
+      "title": "Mozilla Firefox",
+      "description": "Firefox AMO に対応した Manifest V2",
+      "button": "Firefox 用にダウンロード",
+      "store": "Firefox アドオン"
+    }
+  },
+  "howToUse": {
+    "title": "使い方",
+    "step1": {
+      "title": "拡張機能をインストール",
+      "description": "ブラウザの拡張機能ストアからMulti⁺LLMをダウンロードしてインストールします。"
+    },
+    "step2": {
+      "title": "設定を構成",
+      "description": "オプションページでAIモデルの設定とレイアウト設定をカスタマイズします。"
+    },
+    "step3": {
+      "title": "比較を開始",
+      "description": "キーボードショートカット（Alt+Shift+M）を使用するか、拡張機能アイコンをクリックして比較ビューを開きます。"
+    },
+    "step4": {
+      "title": "質問する",
+      "description": "質問を一度入力すると、複数のAIモデルからの応答を同時に確認できます。"
+    }
+  },
+  "about": {
+    "title": "Multi⁺LLMについて",
+    "description1": "Multi⁺LLMは、複数のAIモデルとの対話を効率化するために開発されたプロフェッショナルなAI比較ツールです。TypeScriptと最新のWeb技術を使用して構築され、主要ブラウザすべてでシームレスな体験を提供します。",
+    "description2": "本拡張機能は、水平比較表示、一括質問処理、豊富なカスタマイズオプションをサポートしています。研究者、開発者、AIエンスージアストを問わず、Multi⁺LLMはAIとの対話体験を最大限に活用できるよう支援します。",
+    "builtWith": "使用技術：",
+    "stats": {
+      "models": "AIモデル",
+      "browsers": "対応ブラウザ",
+      "languages": "対応言語",
+      "more": "その他"
+    }
+  },
+  "footer": {
+    "github": "GitHub",
+    "twitter": "X（ツイッター）"
+  },
+  "modal": {
+    "download": {
+      "title": "{browser}用のMulti⁺LLMをダウンロード",
+      "description": "Multi⁺LLMをダウンロードしてインストールできる{store}にリダイレクトされます。",
+      "goTo": "{store}に移動",
+      "cancel": "キャンセル"
+    },
+    "shortcuts": {
+      "title": "キーボードショートカット",
+      "activate": "拡張機能を有効化",
+      "expand": "比較を開いてドックを展開",
+      "prevPage": "比較の前のページ",
+      "nextPage": "比較の次のページ"
+    },
+    "easter": {
+      "title": "🎉 隠し機能がアンロックされました！",
+      "description": "Multi⁺LLMの高度な機能を発見しました:",
+      "note": "これらの機能は完全版の拡張機能で利用できます！",
+      "features": [
+        "\"ml\"キーワードによるオムニボックス統合",
+        "クイックアクセスのためのコンテキストメニューサポート",
+        "ウェブナビゲーション統合",
+        "オフラインモードサポート",
+        "高度なレイアウトカスタマイズ",
+        "バッチ処理機能"
+      ]
+    }
+  },
+  "toast": {
+    "copied": "クリップボードにコピーしました！"
+  }
+}

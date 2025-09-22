@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "features": "功能特色",
+    "download": "下載",
+    "howToUse": "使用方法",
+    "about": "關於"
+  },
+  "hero": {
+    "title": "Multi⁺LLM",
+    "subtitle": "AI對比工具",
+    "description": "專業的AI對比工具，支援橫向對比、批次問答、拖曳排序和響應式佈局。輕鬆實現多個AI模型的並排比較。",
+    "downloadNow": "立即下載",
+    "learnMore": "了解更多"
+  },
+  "features": {
+    "title": "核心功能",
+    "sideByComparison": {
+      "title": "並排對比顯示",
+      "description": "採用水平佈局和同步捲動，支援同時比較多個AI模型的回應結果。"
+    },
+    "batchQA": {
+      "title": "批次問答功能",
+      "description": "一次性向多個AI模型發送相同問題，即時對比各個模型的回答效果。"
+    },
+    "dragDrop": {
+      "title": "拖曳排序操作",
+      "description": "透過直觀的拖曳操作重新排列AI模型順序，自訂您的專屬工作空間。"
+    },
+    "responsive": {
+      "title": "響應式適配",
+      "description": "針對桌面端和行動裝置深度最佳化，提供自適應佈局和觸控友善的操作體驗。"
+    },
+    "shortcuts": {
+      "title": "鍵盤快速操作",
+      "description": "支援自訂鍵盤快捷鍵，實現快速導覽和高效操作，顯著提升使用效率。"
+    },
+    "customization": {
+      "title": "深度個人化客製",
+      "description": "彈性配置各項設定，管理站台偏好，打造專屬的AI對比使用體驗。"
+    }
+  },
+  "models": {
+    "title": "支援的AI模型",
+    "note": "持續更新，支援更多AI平台！"
+  },
+  "download": {
+    "title": "下載 Multi⁺LLM",
+    "description": "全面支援主流瀏覽器，為各平台提供專門最佳化的建置版本。",
+    "chrome": {
+      "title": "Google Chrome",
+      "description": "完整功能支援的 Manifest V3 版本",
+      "button": "下載 Chrome 版",
+      "store": "Chrome 線上應用程式商店"
+    },
+    "edge": {
+      "title": "Microsoft Edge",
+      "description": "Edge 專屬最佳化版本，原生深度整合",
+      "button": "下載 Edge 版",
+      "store": "Edge 附加元件商店"
+    },
+    "firefox": {
+      "title": "Mozilla Firefox",
+      "description": "相容於 Firefox AMO 的 Manifest V2",
+      "button": "下載 Firefox 版",
+      "store": "Firefox 附加元件"
+    }
+  },
+  "howToUse": {
+    "title": "使用方法",
+    "step1": {
+      "title": "安裝擴充功能",
+      "description": "從對應瀏覽器的擴充功能商店下載並安裝 Multi⁺LLM 擴充功能。"
+    },
+    "step2": {
+      "title": "個人化配置",
+      "description": "在選項頁面中自訂AI模型偏好設定和介面佈局參數。"
+    },
+    "step3": {
+      "title": "啟動對比功能",
+      "description": "使用快捷鍵 (Alt+Shift+M) 或點擊擴充功能圖示來開啟AI對比介面。"
+    },
+    "step4": {
+      "title": "開始提問對比",
+      "description": "輸入您的問題，即可同時查看和對比多個AI模型的回答結果。"
+    }
+  },
+  "about": {
+    "title": "關於 Multi⁺LLM",
+    "description1": "Multi⁺LLM 是一款專業的AI對比工具，致力於簡化使用者與多個AI模型的互動體驗。採用 TypeScript 和現代 Web 技術精心建置，在所有主流瀏覽器上都能提供流暢無縫的使用體驗。",
+    "description2": "本擴充功能支援橫向對比檢視、批次問題處理和豐富的個人化客製選項。無論您是科研工作者、開發人員還是AI技術愛好者，Multi⁺LLM 都能幫助您最大化地發揮AI互動的價值和效率。",
+    "builtWith": "技術堆疊：",
+    "stats": {
+      "models": "支援模型",
+      "browsers": "相容瀏覽器",
+      "languages": "介面語言",
+      "more": "更多"
+    }
+  },
+  "footer": {
+    "github": "GitHub",
+    "twitter": "X（推特）"
+  },
+  "modal": {
+    "download": {
+      "title": "下載 {browser} 版 Multi⁺LLM",
+      "description": "即將跳轉到{store}，您可以在那裡下載和安裝 Multi⁺LLM 擴充功能。",
+      "goTo": "前往{store}",
+      "cancel": "取消"
+    },
+    "shortcuts": {
+      "title": "鍵盤快捷鍵",
+      "activate": "啟動擴充功能",
+      "expand": "開啟對比介面並展開面板",
+      "prevPage": "對比介面的上一頁",
+      "nextPage": "對比介面的下一頁"
+    },
+    "easter": {
+      "title": "🎉 隱藏功能已解鎖！",
+      "description": "恭喜您發現了 Multi⁺LLM 的一些進階功能：",
+      "note": "這些功能在完整版擴充功能中均可使用！",
+      "features": [
+        "網址列\"ml\"關鍵詞快速啟動功能",
+        "右鍵選單快速存取支援",
+        "網頁導覽深度整合",
+        "離線模式運行支援",
+        "進階介面佈局自訂",
+        "智慧批次處理功能"
+      ]
+    }
+  },
+  "toast": {
+    "copied": "已複製到剪貼簿！"
+  }
+}

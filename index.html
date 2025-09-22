@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi⁺LLM - AI Comparison Tool</title>
+    <meta name="description" content="Professional AI Comparison Tool: supports horizontal comparison, batch Q&A, drag-and-drop sorting, and responsive layout.">
+    <meta name="keywords" content="Multi, LLM, MultiLLM, AI, artificial intelligence, comparison tool, chatbots, language models, GPT, ChatGPT, Gemini, Claude, Copilot, Perplexity, Poe, AI Studio, Hugging Face, Cohere, Together AI, Replicate, browser extension, Chrome extension, Firefox addon, Edge extension, side-by-side comparison, batch Q    <meta name="keywords" content="Multi, LLM, MultiLLM, AI, artificial intelligence, comparison tool, chatbots, language models, GPT, ChatGPT, Gemini, Claude, Copilot, Perplexity, Poe, AI Studio, Hugging Face, Cohere, Together AI, Replicate, browser extension, Chrome extension, Firefox addon, Edge extension, side-by-side comparison, batch Q&A, drag-and-drop sorting, responsive layout, keyboard shortcuts, customization, AI models, machine learning, natural language processing, NLP, productivity tool, developer tools, research tools">A, drag-and-drop sorting, responsive layout, keyboard shortcuts, customization, AI models, machine learning, natural language processing, NLP, productivity tool, developer tools, research tools">
+    <meta name="theme-color" content="#667eea">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="128x128" href="favicon-128x128.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="favicon-128x128.png">
+    <link rel="apple-touch-icon-precomposed" sizes="128x128" href="favicon-128x128.png">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="@images/icon48.png" alt="Multi⁺LLM Logo" class="logo-icon">
+                    <span class="logo-text">Multi⁺LLM</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#features" data-i18n="nav.features">Features</a>
+                    <a href="#download" data-i18n="nav.download">Download</a>
+                    <a href="#how-to-use" data-i18n="nav.howToUse">How to Use</a>
+                    <a href="#about" data-i18n="nav.about">About</a>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title" data-i18n="hero.title">Multi⁺LLM</h1>
+                    <h2 class="hero-subtitle highlight" data-i18n="hero.subtitle">AI Comparison Tool</h2>
+                    <p class="hero-description" data-i18n="hero.description">
+                        Professional AI Comparison Tool that supports horizontal comparison, batch Q&A, drag-and-drop sorting, and responsive layout. Compare multiple AI models side-by-side with ease.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#download" class="btn btn-primary" data-i18n="hero.downloadNow">Download Now</a>
+                        <a href="#features" class="btn btn-secondary" data-i18n="hero.learnMore">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="ai-logos-container">
+                        <div class="ai-logos-row row-1">
+                            <div class="ai-logos-track">
+                                <img src="@images/ai-logos/openai.png" alt="ChatGPT" class="ai-logo">
+                                <img src="@images/ai-logos/gemini-color.png" alt="Gemini" class="ai-logo">
+                                <img src="@images/ai-logos/claude-color.png" alt="Claude" class="ai-logo">
+                                <img src="@images/ai-logos/copilot-color.png" alt="Copilot" class="ai-logo">
+                                <img src="@images/ai-logos/grok.png" alt="Grok" class="ai-logo">
+                                <img src="@images/ai-logos/perplexity-color.png" alt="Perplexity" class="ai-logo">
+                                <img src="@images/ai-logos/openai.png" alt="ChatGPT" class="ai-logo">
+                                <img src="@images/ai-logos/gemini-color.png" alt="Gemini" class="ai-logo">
+                                <img src="@images/ai-logos/claude-color.png" alt="Claude" class="ai-logo">
+                                <img src="@images/ai-logos/copilot-color.png" alt="Copilot" class="ai-logo">
+                                <img src="@images/ai-logos/grok.png" alt="Grok" class="ai-logo">
+                                <img src="@images/ai-logos/perplexity-color.png" alt="Perplexity" class="ai-logo">
+                            </div>
+                        </div>
+                        <div class="ai-logos-row row-2">
+                            <div class="ai-logos-track">
+                                <img src="@images/ai-logos/poe-color.png" alt="Poe" class="ai-logo">
+                                <img src="@images/ai-logos/aistudio-color.png" alt="AI Studio" class="ai-logo">
+                                <img src="@images/ai-logos/huggingface_logo.svg" alt="Hugging Face" class="ai-logo">
+                                <img src="@images/ai-logos/cohere.png" alt="Cohere" class="ai-logo">
+                                <img src="@images/ai-logos/together.png" alt="Together AI" class="ai-logo">
+                                <img src="@images/ai-logos/replicate.png" alt="Replicate" class="ai-logo">
+                                <img src="@images/ai-logos/poe-color.png" alt="Poe" class="ai-logo">
+                                <img src="@images/ai-logos/aistudio-color.png" alt="AI Studio" class="ai-logo">
+                                <img src="@images/ai-logos/huggingface_logo.svg" alt="Hugging Face" class="ai-logo">
+                                <img src="@images/ai-logos/cohere.png" alt="Cohere" class="ai-logo">
+                                <img src="@images/ai-logos/together.png" alt="Together AI" class="ai-logo">
+                                <img src="@images/ai-logos/replicate.png" alt="Replicate" class="ai-logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2 class="section-title" data-i18n="features.title">Key Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🔄</div>
+                        <h3 data-i18n="features.sideByComparison.title">Side-by-Side Comparison</h3>
+                        <p data-i18n="features.sideByComparison.description">Compare multiple AI models simultaneously with horizontal layout and synchronized scrolling.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3 data-i18n="features.batchQA.title">Batch Q&A</h3>
+                        <p data-i18n="features.batchQA.description">Send the same question to multiple AI models at once and compare their responses instantly.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎨</div>
+                        <h3 data-i18n="features.dragDrop.title">Drag & Drop Sorting</h3>
+                        <p data-i18n="features.dragDrop.description">Customize your workspace by reordering AI models with intuitive drag-and-drop functionality.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📱</div>
+                        <h3 data-i18n="features.responsive.title">Responsive Design</h3>
+                        <p data-i18n="features.responsive.description">Optimized for both desktop and mobile devices with adaptive layouts and touch-friendly controls.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⌨️</div>
+                        <h3 data-i18n="features.shortcuts.title">Keyboard Shortcuts</h3>
+                        <p data-i18n="features.shortcuts.description">Boost productivity with customizable keyboard shortcuts for quick navigation and actions.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🛠️</div>
+                        <h3 data-i18n="features.customization.title">Extensive Customization</h3>
+                        <p data-i18n="features.customization.description">Configure settings, manage site preferences, and personalize your AI comparison experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="supported-models">
+            <div class="container">
+                <h2 class="section-title" data-i18n="models.title">Supported AI Models</h2>
+                <div class="models-grid">
+                    <div class="model-item">
+                        <img src="@images/ai-logos/openai.png" alt="ChatGPT">
+                        <span>ChatGPT</span>
+                    </div>
+                    <div class="model-item">
+                        <img src="@images/ai-logos/gemini-color.png" alt="Gemini">
+                        <span>Gemini</span>
+                    </div>
+                    <div class="model-item">
+                        <img src="@images/ai-logos/claude-color.png" alt="Claude">
+                        <span>Claude</span>
+                    </div>
+                    <div class="model-item">
+                        <img src="@images/ai-logos/copilot-color.png" alt="Copilot">
+                        <span>Microsoft Copilot</span>
+                    </div>
+                    <div class="model-item">
+                        <img src="@images/ai-logos/grok.png" alt="Grok">
+                        <span>Grok</span>
+                    </div>
+                    <div class="model-item">
+                        <img src="@images/ai-logos/perplexity-color.png" alt="Perplexity">
+                        <span>Perplexity</span>
+                    </div>
+                    <div class="model-item">
+                        <img src="@images/ai-logos/poe-color.png" alt="Poe">
+                        <span>Poe</span>
+                    </div>
+                    <div class="model-item">
+                        <img src="@images/ai-logos/aistudio-color.png" alt="AI Studio">
+                        <span>Google AI Studio</span>
+                    </div>
+                    <div class="model-item">
+                        <img src="@images/ai-logos/huggingface_logo.svg" alt="Hugging Face">
+                        <span>Hugging Face</span>
+                    </div>
+                    <div class="model-item">
+                        <img src="@images/ai-logos/cohere.png" alt="Cohere">
+                        <span>Cohere</span>
+                    </div>
+                    <div class="model-item">
+                        <img src="@images/ai-logos/together.png" alt="Together AI">
+                        <span>Together AI</span>
+                    </div>
+                    <div class="model-item">
+                        <img src="@images/ai-logos/replicate.png" alt="Replicate">
+                        <span>Replicate</span>
+                    </div>
+                </div>
+                <p class="models-note" data-i18n="models.note">And many more AI platforms with continuous updates!</p>
+            </div>
+        </section>
+
+        <section id="download" class="download">
+            <div class="container">
+                <h2 class="section-title" data-i18n="download.title">Download Multi⁺LLM</h2>
+                <p class="download-description" data-i18n="download.description">Available for all major browsers with optimized builds for each platform.</p>
+                <div class="download-cards">
+                    <div class="download-card">
+                        <img src="@images/browser-logos/chrome_128x128.png" alt="Chrome" class="browser-icon">
+                        <h3 data-i18n="download.chrome.title">Google Chrome</h3>
+                        <a href="https://chromewebstore.google.com/detail/panlbcedcmijgfjipgpfgadggpnealem" class="btn btn-download" target="_blank" rel="noopener noreferrer" data-i18n="download.chrome.button">
+                            <span>Download for Chrome</span>
+                            <small>Chrome Web Store</small>
+                        </a>
+                        <p data-i18n="download.chrome.description">Manifest V3 with full feature support</p>
+                    </div>
+                    <div class="download-card">
+                        <img src="@images/browser-logos/edge_128x128.png" alt="Edge" class="browser-icon">
+                        <h3 data-i18n="download.edge.title">Microsoft Edge</h3>
+                        <a href="https://microsoftedge.microsoft.com/addons/detail/gilamfkdihkgpbdbknndpbjbkdfjgnpp" class="btn btn-download" target="_blank" rel="noopener noreferrer" data-i18n="download.edge.button">
+                            <span>Download for Edge</span>
+                            <small>Edge Add-ons</small>
+                        </a>
+                        <p data-i18n="download.edge.description">Optimized for Edge with native integration</p>
+                    </div>
+                    <div class="download-card">
+                        <img src="@images/browser-logos/firefox_128x128.png" alt="Firefox" class="browser-icon">
+                        <h3 data-i18n="download.firefox.title">Mozilla Firefox</h3>
+                        <a href="https://addons.mozilla.org/firefox/addon/multillm/" class="btn btn-download" target="_blank" rel="noopener noreferrer" data-i18n="download.firefox.button">
+                            <span>Download for Firefox</span>
+                            <small>Firefox Add-ons</small>
+                        </a>
+                        <p data-i18n="download.firefox.description">Manifest V2 compatible with Firefox AMO</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-to-use" class="how-to-use">
+            <div class="container">
+                <h2 class="section-title" data-i18n="howToUse.title">How to Use</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3 data-i18n="howToUse.step1.title">Install Extension</h3>
+                            <p data-i18n="howToUse.step1.description">Download and install Multi⁺LLM from your browser's extension store.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3 data-i18n="howToUse.step2.title">Configure Settings</h3>
+                            <p data-i18n="howToUse.step2.description">Customize your AI model preferences and layout settings in the options page.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3 data-i18n="howToUse.step3.title">Start Comparing</h3>
+                            <p data-i18n="howToUse.step3.description">Use keyboard shortcuts (Alt+Shift+M) or click the extension icon to open the comparison view.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3 data-i18n="howToUse.step4.title">Ask Questions</h3>
+                            <p data-i18n="howToUse.step4.description">Type your question once and see responses from multiple AI models simultaneously.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title" data-i18n="about.title">About Multi⁺LLM</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p data-i18n="about.description1">Multi⁺LLM is a professional AI comparison tool designed to streamline your interactions with multiple AI models. Built with TypeScript and modern web technologies, it provides a seamless experience across all major browsers.</p>
+                        <p data-i18n="about.description2">The extension supports horizontal comparison views, batch question processing, and extensive customization options. Whether you're a researcher, developer, or AI enthusiast, Multi⁺LLM helps you get the most out of your AI interactions.</p>
+                        <div class="tech-stack">
+                            <h4 data-i18n="about.builtWith">Built with:</h4>
+                            <div class="tech-items">
+                                <span class="tech-item">TypeScript</span>
+                                <span class="tech-item">ESBuild</span>
+                                <span class="tech-item">Manifest V3/V2</span>
+                                <span class="tech-item">Modern CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number stat-infinity">∞</div>
+                            <div class="stat-label" data-i18n="about.stats.models">AI Models</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">3</div>
+                            <div class="stat-label" data-i18n="about.stats.browsers">Browsers</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">4</div>
+                            <div class="stat-label" data-i18n="about.stats.languages">Languages</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">...</div>
+                            <div class="stat-label" data-i18n="about.stats.more">More</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="@images/icon32.png" alt="Multi⁺LLM">
+                    <span>Multi⁺LLM</span>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/LLMist" data-i18n="footer.github" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://twitter.com/LLM_ist" data-i18n="footer.twitter" target="_blank" rel="noopener noreferrer">X (Twitter)</a>
+                </div>
+                <div class="footer-info">
+                    <p>&copy; 2025 Multi⁺LLM</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
